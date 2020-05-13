@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="@drawable/gradient2">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="It's a pleasure to hear your feedback"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textColor="#FFFFFF"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="15dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:hint="Please enter your feedback"
+            android:textSize="25sp"
+            android:inputType="textMultiLine"
+            android:id="@+id/feedBackText"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:autofillHints="no"
+            android:gravity="start"
+            android:lines="5"
+            android:scrollbars="vertical"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <ProgressBar
+            android:layout_weight="0.5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/feedBackProgressBar"
+            android:visibility="invisible"
+            />
+
+        <Button
+            android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="Submit Feedback"
+            android:id="@+id/feedBackSubmitButton"
+            android:background="@drawable/mybutton"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

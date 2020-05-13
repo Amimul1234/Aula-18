@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient1"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find by name"
+            android:id="@+id/nameFinder"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/mybutton"
+            android:layout_marginRight="40dp"
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find by Dept."
+            android:id="@+id/deptFinder"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/mybutton"
+        />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find by blood"
+            android:id="@+id/bloodGroupFinder"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/mybutton"
+            android:layout_marginRight="40dp"
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find by area"
+            android:id="@+id/areaFinder"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/mybutton"
+        />
+
+    </LinearLayout>
+
+
+</LinearLayout>

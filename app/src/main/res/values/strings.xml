@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">AULA 18</string>
+    <string name="title">Bangladesh University of Engineering and Technology</string>
+    <string name="auala_18">AULA 18</string>
+    <string name="developer">Created by\nAmimul Ehsan Rahi</string>
+    <string name="login">Log In</string>
+    <string name="email">Enter your email address</string>
+    <string name="passWord">Enter your password</string>
+    <string name="signIn">Sign In</string>
+    <string name="message">Not Registered yet?</string>
+    <string name="enter_your_birthday_or">(Enter your birthday) or</string>
+    <string name="choose">Choose</string>
+    <string name="enter_your_father_s_name">Enter your father\'s name</string>
+    <string name="submit_details">Submit Details</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_mobile_number">Enter your mobile number</string>
+    <string name="enter_your_room_number">Enter your room number</string>
+    <string name="enter_your_permanent_address">Enter your permanent address</string>
+    <string name="enter_your_gurdian_phone_number">Enter your gurdian phone number</string>
+    <string name="already_registered">Already registered ?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="next">Next</string>
+    <string name="buet_logo">Buet Logo</string>
+
+    <string-array name="blood_group">
+
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+
+    </string-array>
+
+    <string-array name="department">
+
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>Ch.E</item>
+        <item>ME</item>
+        <item>MME</item>
+        <item>Civil</item>
+        <item>WRE</item>
+        <item>NAME</item>
+        <item>IPE</item>
+        <item>URP</item>
+        <item>BME</item>
+        <item>Arch.</item>
+
+    </string-array>
+
+
+    <string name="about">
+        This app is a gift for you from me.You have to fulfill the following requirements:\n\n
+
+        1.You have to be a AULA 18\'th batch student\n
+        2.Internet connection is required to use this app.\n\n
+
+        There is a feedback section through which you can give your opinion about the app.
+        It will be a pleasure to hear from you.You can access the following information of others:\n\n
+
+        1. Name\n
+        2. Department\n
+        3. Mobile number\n
+        4. Blood Group\n
+        5. Room number\n\n
+
+        If any additional information is required please contact me.\n\n
+
+        সবশেষে ভাই মেলা খাটনি হইছে...........পুরা পাঁচদিন এবং প্রতিদিন ১৪/১৫ ঘণ্টা করে সময় লাগছে।
+        দেখা হলে তো চা খাইয়াতেই পারিস তাই না?
+    </string>
+
+
+</resources>

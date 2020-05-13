@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Details_data_from_realtime_database"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:background="@drawable/gradient1">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Details"
+            android:gravity="center"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/details_name"
+            android:text="Amiubsdikfdskcb"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:layout_marginBottom="15dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/details_department"
+            android:text="Amiubsdikfdskcb"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:layout_marginBottom="15dp"
+            />
+          <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/details_mobile_number"
+            android:text="Amiubsdikfdskcb"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="40sp"
+              android:layout_marginBottom="15dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/details_blood_group"
+            android:text="Amiubsdikfdskcb"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:layout_marginBottom="15dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/details_room_number"
+            android:text="Amiubsdikfdskcb"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:layout_marginBottom="15dp"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
